@@ -3,12 +3,10 @@ type Course {
     code: Int!
     name: String!
     credits: Int!
-    professor: String!
 }
 input CourseInput {
     name: String!
     credits: Int!
-    professor: String!
 }`;
 
 export const coursesQueries = `
